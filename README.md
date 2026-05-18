@@ -7,6 +7,8 @@ This is my personal portfolio website built to showcase my skills, projects, and
 ## 🌐 Live Demo
 https://kaipham27.github.io/Portfolio_Joms/
 
+RUN LOCALLY
+- Right click html then click "Open with live server" if you have an extention on VsCode
 ---
 
 ## 📌 Features
