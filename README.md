@@ -1,58 +1,35 @@
+# 💼 My Portfolio Website
 
-Open Via Link: Open Via Link:  https://kaipham27.github.io/Portfolio_Joms/
+This is my personal portfolio website built to showcase my skills, projects, and experience as a BSIT student and aspiring IT professional.
 
+---
 
-## 🚀 How to Run Locally
+## 🌐 Live Demo
+https://kaipham27.github.io/Portfolio_Joms/
 
-### Method 1: Using Live Server (Recommended)
+RUN LOCALLY
+- Right click html then click "Open with live server" if you have an extention on VsCode
+---
 
-1. **Install VS Code Extensions** (if not already installed):
-   - Install "Live Server" by Ritwick Dey from Extensions
+## 📌 Features
 
-2. **Open the Project**:
-   ```bash
-   # Navigate to the project folder
-   cd Portfolio-Website
-   ```
+- Responsive design (works on mobile and desktop)
+- Dark mode toggle
+- Smooth scrolling navigation
+- Typing animation effect
+- Projects showcase section
+- Contact form (via Formspree)
+- Downloadable resume
+- Visitor counter
 
-3. **Start Live Server**:
-   - Right-click on `index.html` → "Open with Live Server"
-   - Or use the "Go Live" button in the bottom-right corner of VS Code
+---
 
-4. **Access Your Portfolio**:
-   - Your browser will automatically open to `http://localhost:5500`
-   - Make changes to HTML/CSS/JS and see them update in real-time!
+## 🛠️ Built With
 
-### Method 2: Using Python
+- HTML5
+- CSS3 (Flexbox & Grid)
+- JavaScript (Vanilla JS)
+- Font Awesome Icons
+- Formspree (for contact form)
 
-If you have Python installed:
-
-```bash
-# Python 3.x
-python -m http.server 8000
-
-# Python 2.x
-python -m SimpleHTTPServer 8000
-```
-
-Then open `http://localhost:8000` in your browser.
-
-### Method 3: Using Node.js
-
-If you have Node.js installed:
-
-```bash
-# Install http-server globally (first time only)
-npm install -g http-server
-
-# Start the server
-http-server
-
-# Access at http://localhost:8080
-```
-
-### Method 4: Direct Browser Opening
-
-Simply double-click `index.html` to open it in your browser (limited functionality for some features).
-OR
-Open Via Link:  https://kaipham27.github.io/Portfolio_Joms/
+---
