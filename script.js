@@ -300,18 +300,19 @@ function typeEffect() {
         typingElement.textContent = currentText.substring(0, j++);
     }
 
-    if (!isDeleting && j === currentText.length) {
-        isDeleting = true;
-        setTimeout(typeEffect, 1500);
-        return;
-    }
+    let speed = isDeleting ? 100: 140;
 
-    if (isDeleting && j === 0) {
+    if (!isDeleting && j === currentText.length) {
+        speed = 2000;
+        isDeleting = true;}
+
+    else if (isDeleting && j === 0) {
         isDeleting = false;
         i = (i + 1) % texts.length;
+        speed = 500;  
     }
 
-    setTimeout(typeEffect, isDeleting ? 80 : 100);
+    setTimeout(typeEffect, speed);
 }
 
 typeEffect();
