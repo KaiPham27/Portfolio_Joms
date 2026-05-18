@@ -323,7 +323,14 @@ const closeBtn = document.querySelector('.close');
 
 document.querySelector('a[href="#about"]').addEventListener("click", (e) => {
     e.preventDefault();
-    modal.style.display = "flex";
+
+    document.querySelector("#about").scrollIntoView({
+        behavior: "smooth"
+    });
+
+    setTimeout(() => {
+        modal.style.display = "flex";
+    }, 500);
 });
 
 closeBtn.addEventListener("click", () => {
